@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jsaw_app *.css
+recursive-include jsaw_app *.csv
+recursive-include jsaw_app *.html
+recursive-include jsaw_app *.ico
+recursive-include jsaw_app *.js
+recursive-include jsaw_app *.json
+recursive-include jsaw_app *.md
+recursive-include jsaw_app *.png
+recursive-include jsaw_app *.py
+recursive-include jsaw_app *.svg
+recursive-include jsaw_app *.txt
+recursive-exclude jsaw_app *.pyc
